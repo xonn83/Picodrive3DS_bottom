@@ -28,7 +28,7 @@ include $(DEVKITARM)/3ds_rules
 #     - <libctru folder>/default_icon.png
 #---------------------------------------------------------------------------------
 APP_TITLE	:=	PicoDrive for 3DS (bottom)
-APP_DESCRIPTION	:=	Genesis emulator for your old 3DS / 2DS.
+APP_DESCRIPTION	:=	Genesis/MasterSystem emulator
 APP_AUTHOR	:=	bubble2k16
 ASSETS		:=	src/cores/picodrive/assets
 ICON		:=	$(ASSETS)/icon.png
