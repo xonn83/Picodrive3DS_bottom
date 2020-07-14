@@ -6,4 +6,4 @@ PicoDrive emulator (bottom screen) is a mod of bubble2k16's program (v0.94) crea
 
 picodrive3DS_bottom.3dsx    (to be launched from homebrew channel)
 
-picodrive3DS_bottom.cia     (to be installed in home menu)
+picodrive3DS_bottom.cia     (to be installed in home menu) [ Coming soon... ]
