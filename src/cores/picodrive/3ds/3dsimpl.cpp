@@ -1043,8 +1043,8 @@ void impl3dsEmulationEnd()
 //---------------------------------------------------------
 void impl3dsEmulationPaused()
 {
-    ui3dsDrawRect(50, 140, 270, 154, 0x000000);
-    ui3dsDrawStringWithNoWrapping(50, 140, 270, 154, 0x3f7fff, HALIGN_CENTER, "Saving SRAM to SD card...");
+    //ui3dsDrawRect(50, 140, 270, 154, 0x000000);
+    //ui3dsDrawStringWithNoWrapping(50, 140, 270, 154, 0x3f7fff, HALIGN_CENTER, "Saving SRAM to SD card...");
 
     // ** Save SRAM
     emu_save_load_sram(file3dsReplaceFilenameExtension(romFileNameFullPath, ".sram"), 0);
